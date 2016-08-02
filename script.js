@@ -86,7 +86,17 @@ function createDomPage3(){
 
 
 // PAGE 4  -  Events Buttons
+function createDomPage4(){
+    for(var i = 0; i < 6 ; i++){
+        var div = $('<div>').addClass('eventBtns col-sm-4 col-xs-6');
+        $('.main').append(div);
+    }
+}
 
+function clickEventBtns(){
+    clearMain();
+    $('.eventBtns').click(function(){createDomPage5()});
+}
 
 
 

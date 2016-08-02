@@ -25,7 +25,11 @@
 
 
 /*Page 4*/
-
+.eventBtns{
+    background-color:lightblue;
+    border:1px red solid;
+    height:40vh;
+}
 
 
 
